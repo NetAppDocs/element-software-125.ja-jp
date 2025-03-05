@@ -1,10 +1,10 @@
 ---
 permalink: storage/element-replication-index.html 
 sidebar: sidebar 
-keywords: decide, replication, netapp element software, ontap, business continuity, element, system, snapmirror, replicate, snapshot, copies, volume 
+keywords: ontap, cli, replication, element, software, ontap, business continuity, snapmirror, replicate, snapshot, copies, volume 
 summary: SnapMirrorを使用してElementボリュームのSnapshotコピーをONTAPデスティネーションにレプリケートすることで、Elementシステムのビジネス継続性を確保できます。 
 ---
-= NetApp ElementソフトウェアとONTAP間のレプリケーションの概要
+= NetApp ElementソフトウェアとONTAP間のレプリケーションの概要（ONTAP CLI）
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
@@ -18,7 +18,7 @@ ONTAP 9 .4以降では、ONTAPノードで作成したLUNのSnapshotコピーを
 次の状況に該当する場合は、ElementからONTAPへのバックアップを実行する必要があります。
 
 * すべての選択肢について検討するのではなく、ベストプラクティスに従う。
-* Element UI、System Manager、storage/concept-element-replication-create-custom-replication-policy、自動スクリプトツールではなく、ONTAPのコマンドラインインターフェイス（CLI）を使用する必要がある。
+* System Managerや自動スクリプトツールではなく、ONTAPのコマンドラインインターフェイス（CLI）を使用する必要がある。
 * iSCSIを使用してクライアントにデータを提供している。
 
 
@@ -145,7 +145,7 @@ Element と ONTAP の間にデータ保護関係を設定するには、次の�
 +
 [NOTE]
 ====
-このタスクは、ElementソフトウェアWeb UIでのみ実行できます。
+このタスクは、またはでのみ実行できますlink:concept_snapmirror_labels.html["ElementソフトウェアWeb UI"]link:../api/concept_element_api_snapshots_overview.html["API メソッド"]。
 
 ====
 * ポート5010が使用可能であることを確認しておく必要があります。

@@ -1,7 +1,7 @@
 ---
 permalink: storage/task-element-replication-reactivate-original-source-volume.html 
 sidebar: sidebar 
-keywords: reactivate. original, source, volume 
+keywords: ontap, cli, reactivate, original, source, volume 
 summary: デスティネーションからデータを提供する必要がなくなった場合は、ソースボリュームとデスティネーションボリュームの間で元のデータ保護関係を再確立できます。 
 ---
 = 元のソースボリュームを再アクティブ化

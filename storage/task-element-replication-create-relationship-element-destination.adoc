@@ -2,7 +2,7 @@
 permalink: storage/task-element-replication-create-relationship-element-destination.html 
 sidebar: sidebar 
 keywords: ontap, cli, create, relationship, replication, snapmirror 
-summary: 4以降では、ONTAP CLIを使用して、SnapMirrorを使用して、ONTAPソースで作成したONTAP 9のSnapshotコピーをElementデスティネーションにレプリケートする関係を作成できます。 
+summary: 4以降では、SnapMirrorを使用して、ONTAPソースで作成されたONTAP 9のSnapshotコピーをElementデスティネーションにレプリケートできます。 
 ---
 = ONTAPソースからElementデスティネーションへの関係を作成する
 :allow-uri-read: 
@@ -11,7 +11,7 @@ summary: 4以降では、ONTAP CLIを使用して、SnapMirrorを使用して、
 
 
 [role="lead"]
-4以降では、ONTAP CLIを使用して、SnapMirrorを使用して、ONTAPソースで作成したONTAP 9のSnapshotコピーをElementデスティネーションにレプリケートする関係を作成できます。LUNを使用してONTAPからElementソフトウェアにデータを移行する場合があります。
+4以降では、SnapMirrorを使用して、ONTAPソースで作成されたONTAP 9のSnapshotコピーをElementデスティネーションにレプリケートできます。LUNを使用してONTAPからElementソフトウェアにデータを移行する場合があります。
 
 .開始する前に
 * ONTAPからElementデスティネーションノードにアクセスできるようにしておく必要があります。

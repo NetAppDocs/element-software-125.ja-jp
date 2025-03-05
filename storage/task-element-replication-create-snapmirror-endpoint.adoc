@@ -2,7 +2,7 @@
 permalink: storage/task-element-replication-create-snapmirror-endpoint.html 
 sidebar: sidebar 
 keywords: create, snapmirror, endpoint 
-summary: レプリケーション関係を作成する前に、SnapMirrorエンドポイントを作成する必要があります。このタスクは、ElementソフトウェアWeb UIでのみ実行できます。 
+summary: レプリケーション関係を作成する前に、SnapMirrorエンドポイントを作成する必要があります。このタスクは、ElementソフトウェアWeb UIまたはAPIメソッドでのみ実行できます。 
 ---
 = SnapMirrorエンドポイントの作成
 :allow-uri-read: 
@@ -11,7 +11,7 @@ summary: レプリケーション関係を作成する前に、SnapMirrorエン�
 
 
 [role="lead"]
-レプリケーション関係を作成する前に、SnapMirrorエンドポイントを作成する必要があります。このタスクは、ElementソフトウェアWeb UIでのみ実行できます。
+レプリケーション関係を作成する前に、SnapMirrorエンドポイントを作成する必要があります。このタスクは、またはでのみ実行できますlink:concept_snapmirror_labels.html["ElementソフトウェアWeb UI"]link:../api/concept_element_api_snapmirror_api_methods.html["SnapMirror API メソッド"]。
 
 .開始する前に
 ElementクラスタでSnapMirrorを有効にしておく必要があります。

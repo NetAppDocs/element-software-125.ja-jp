@@ -1,7 +1,7 @@
 ---
 permalink: storage/task-element-replication-create-replication-relationship.html 
 sidebar: sidebar 
-keywords: element, ui, create, relationship, element, source, ontap, destination 
+keywords: element, ui, create, relationship, element, source, ontap, destination, cli 
 summary: SnapMirrorを使用して、ElementボリュームのSnapshotコピーをONTAPデスティネーションシステムにレプリケートできます。これにより、 Element サイトで災害が発生した場合でも、 ONTAP システムからクライアントに引き続きデータを提供し、サービスのリストア後に Element ソースボリュームを再アクティブ化することができます。 
 ---
 = ElementソースからONTAPデスティネーションへの関係を作成する
@@ -22,7 +22,7 @@ SnapMirrorを使用して、ElementボリュームのSnapshotコピーをONTAP�
 +
 [NOTE]
 ====
-このタスクは、ElementソフトウェアWeb UIでのみ実行できます。
+このタスクは、またはでのみ実行できますlink:concept_snapmirror_labels.html["ElementソフトウェアWeb UI"]link:../api/concept_element_api_snapshots_overview.html["API メソッド"]。
 
 ====
 

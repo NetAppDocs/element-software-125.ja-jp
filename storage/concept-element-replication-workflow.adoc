@@ -1,7 +1,7 @@
 ---
 permalink: storage/concept-element-replication-workflow.html 
 sidebar: sidebar 
-keywords: workflow, replication, element, ontap 
+keywords: workflow, replication, element, ontap, cli 
 summary: データをElementからONTAPにレプリケートするかONTAPからElementにレプリケートするかに関係なく、ジョブスケジュールを設定し、ポリシーを指定し、関係を作成して初期化する必要があります。デフォルトまたはカスタムのポリシーを使用できます。 
 ---
 = ElementとONTAPの間のレプリケーションのワークフロー

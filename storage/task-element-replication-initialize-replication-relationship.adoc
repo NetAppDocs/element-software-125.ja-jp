@@ -1,7 +1,7 @@
 ---
 permalink: storage/task-element-replication-initialize-replication-relationship.html 
 sidebar: sidebar 
-keywords: initialize, replication, relationship 
+keywords: ontap, cli, initialize, replication, relationship 
 summary: すべての関係タイプでは、初期化の際にベースライン転送が実行されます。ベースライン転送では、ソースボリュームのSnapshotコピーが作成され、そのコピーおよびコピーが参照するすべてのデータブロックがデスティネーションボリュームに転送されます。 
 ---
 = レプリケーション関係を初期化する
@@ -17,6 +17,12 @@ summary: すべての関係タイプでは、初期化の際にベースライ�
 * レプリケートするボリュームを含む Element ノードから ONTAP にアクセスできるようにしておく必要があります。
 * ElementボリュームでSnapMirrorレプリケーションが有効になっている必要があります。
 * ポリシータイプ「m mirror-vault」を使用する場合は、レプリケートするElement SnapshotコピーのSnapMirrorラベルを設定しておく必要があります。
++
+[NOTE]
+====
+このタスクは、またはでのみ実行できますlink:concept_snapmirror_labels.html["ElementソフトウェアWeb UI"]link:../api/concept_element_api_snapshots_overview.html["API メソッド"]。
+
+====
 
 
 .タスクの内容
